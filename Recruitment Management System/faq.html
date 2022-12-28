@@ -1,0 +1,439 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <title>R.M.S  solutions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="accept-language" content="en-GB">
+
+    <link rel="shortcut icon" href="favicon.png">
+
+    <link href="Content/cssf050.css?v=lt9V9ko7kzKiVa3z1HdOHJf9hnt869Evt6GlSMGxxvc1" rel="stylesheet"/>
+
+    <script src="bundles/modernizr43eb?v=qVODBytEBVVePTNtSFXgRX0NCEjh9U_Oj8ePaSiRcGg1"></script>
+
+
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300|Rambla|Calligraffitti' rel='stylesheet' type='text/css'>
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+          <script src="/js/html5shim.js"></script>
+    <![endif]-->
+    <!--[if lte IE 8]>
+      <script src="/js/json2.js"></script>
+    <![endif]-->
+    
+
+
+
+    <!--Scripts -->
+    <script src="bundles/jquery5ff6?v=673UEdByINoovgH_eKsiA4BMbLsnSrAtc9DxPkJUlwI1"></script>
+
+    <script src="bundles/jqueryvala58a?v=2ghtVqCM8JIEPGxCuZopth4zGa5gMbhnh7aDTCdn_Mw1"></script>
+
+    <script src="bundles/bootstrap23d7?v=kx_A1Ws6D65L6ZTMVn7LQrseX7kFhwEYj3RpyB51vvk1"></script>
+
+
+    <script type="text/javascript">
+
+        $(function () {
+
+
+            resizeWindow();
+            $(window).resize(resizeWindow);
+
+
+
+        });
+
+
+
+        function resizeWindow() {
+
+            var winHeight = $(document).height();
+
+            var otherHeight = 275;
+
+
+            // $('#myContainer').height(winHeight - otherHeight);
+            $('#content').css("min-height", (winHeight - otherHeight));
+        }
+
+
+    </script>
+
+    
+
+</head>
+
+<body class="page">
+    <div id="navigation" class="wrapper">
+        <div class="navbar  navbar-static-top">
+
+
+
+            <!--Header & Branding region-->
+            <div class="header">
+                <div class="header-inner container">
+                    <div class="row-fluid">
+                        <div class="span7">
+                            <!--branding/logo-->
+                            <a class="brand" href="index.php" title="Home">
+                                <h1>
+                                    <img src="content/img/rms_logo.png" />
+                                </h1>
+                            </a>
+                            <div class="slogan hidden-tablet hidden-phone">RMS JOB <small><sub><i>SOLUTIONS.</i></sub></small></div>
+                        </div>
+
+                        <!--header rightside-->
+                        <div class="span5">
+
+
+                            <!--social media icons-->
+                            <div class="social-media pull-right hidden-phone">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="navbar-inner">
+
+                    <!--mobile collapse menu button-->
+                    <a class="btn btn-navbar pull-left" data-toggle="collapse" data-target=".nav-collapse"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></a>
+
+                    <!--user menu-->
+                     <ul class="nav user-menu pull-right">
+                            <li><a href="candidate/register.php" class="btn btn-success signup">Register</a></li>
+                            <li class="dropdown">
+                                <a href="candidate/login.php" class="btn btn-success dropdown-toggle login" id="login-drop" data-toggle="dropdown">Login</a>
+                                <div class="dropdown-menu" role="menu" aria-labelledby="login-drop">
+                                    <form action="candidate/loginProcessing.php" method="POST" class="form-inline" id="login-form-drop" role="menuitem">
+                                        <input name="__RequestVerificationToken" type="hidden" value="jVKPc9n7qY3dU1uMklVEnHKZjXWIxODR-WA2xFmmeN0RKY9gfutsO6dWPD14fOuSOobUvHcnjwqFPsoP_zS4KBMTWZCwoglN9PZJ_I8aQPU1" />
+                                        <div class="input-append">
+                                            <input class="input-small email" id="email" name="email" placeholder="Email" type="text" value="" />
+                                            <input class="input-small password" id="password" name="password" placeholder="Password" type="password" />
+                                            <input type="submit" class="btn btn-success login" value="Login">
+                                        </div>
+                                    </form>
+                                    <span class="divider" role="menuitem"></span><small role="menuitem">Not yet registered? <a href="candidate/register.php" class="signup">Register now!</a></small> <small role="menuitem"><a href="candidate/recover.phpl">Forgotten password?</a></small>
+                                </div>
+                            </li>
+                    </ul>
+
+                    <!--everything within this div is collapsed on mobile-->
+                    <div class="nav-collapse collapse">
+
+                        <!--main navigation-->
+                        <ul class="nav" id="main-menu">
+                            <li class="home-link"><a href="index.php"><i class="icon-home hidden-phone"></i><span class="visible-phone">Home</span></a></li>
+
+                            <li><a href="index.php" class="menu-item">Home Page</a></li>
+                            <li><a href="about.html" class="menu-item">About</a></li>
+                            <li><a href="faq.html" class="menu-item">FAQ</a></li>
+                            <li><a href="contact.html" class="menu-item">Contact us</a></li>
+
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="container">
+            <div class="form-wrapper" style="max-width: 1125px; min-height: 500px;">
+                
+
+
+<h3 class="title-divider"><span>Frequently Asked Questions</span> </h3>
+
+
+<div>
+
+    <div class="accordion" id="accordion">
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1011_faq">
+                        Why must my photo be 450px by 450px?
+                </a>
+            </div>
+            <div id="1011_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    This ensures the clarity of the image so the job application board can identify who is being awarded.
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1012_faq">
+                        What is Scholastica?
+                </a>
+            </div>
+            <div id="1012_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    R.M.S <small>solutions</small> is your One Stop job application where one profile can be used to apply for multiple jobs. This saves you the stress of having to upload your documents every time and keeps you updated on ongoing job application.
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1013_faq">
+                        What happens if i do not qualify or meet the criteria of a job application?
+                </a>
+            </div>
+            <div id="1013_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    Ensure your profile is filled correctly and truthfully, you can also apply for other jobs that match your status
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1014_faq">
+                        What is &quot;NIN&quot;?
+                </a>
+            </div>
+            <div id="1014_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    NIN is the National Identification Number being coordinated by the National Identity Management Commission
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1015_faq">
+                         I am interested in a job application on R.M.S <small> solutions </small> .How do I apply?
+                </a>
+            </div>
+            <div id="1015_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    <span>Register with a valid e-mail address and create a profile on R.M.S <small> solutions </small>, then apply for the
+job.</span>
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1016_faq">
+                        I made a mistake. How do I edit my profile details? 
+                </a>
+            </div>
+            <div id="1016_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    If you have not applied for any job, you
+can still edit your profile details. To edit your profile details after
+applying for a job, s<span>end an email to <a target="_blank" rel="nofollow">admin@rmssolutions.com</a>
+from the email account you used to create your job profile stating your
+case. Ensure the email is titled appropriately. For example “Correction of
+details on job profile”&nbsp;</span>
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1017_faq">
+                        My academic qualification is not on the list. What should I do? 
+                </a>
+            </div>
+            <div id="1017_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    <span>Send an email to <a target="_blank" rel="nofollow">admin@rmssolutions.com</a>
+stating the overall <b>standard</b> of the <b> qualification</b>,
+<b>Institutions offering</b> the certification <b>and the certification details</b>.</span>
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1018_faq">
+                        How do I know if I am eligible for a job? 
+                </a>
+            </div>
+            <div id="1018_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    <span>The eligibility criteria of each each job description is
+clearly defined in the Requirements page of the scheme, you can also contact <a target="_blank" rel="nofollow">admin@rmssolutions.com</a>
+for more details.</span>
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1019_faq">
+                        I am unable to upload my documents. What can I do? 
+                </a>
+            </div>
+            <div id="1019_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    Confirm your internet connectivity, ensure you are not
+using a mobile device that is not enabled for such activity, try to use a
+different browser software, log out of your account and log back in. If none of
+these solutions work, please contact our customer care lines for guidance<span>. <b>Also confirm the documents are in the right format and are not
+above 200Kb.</b></span>
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1020_faq">
+                        How do I download my profile form? 
+                </a>
+            </div>
+            <div id="1020_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    After application for a job, return to
+the overview page of your profile to download your profile form. Note: The same
+profile form is used for all job applications on R.M.S <small> solutions </small>
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1021_faq">
+                        How do I upload my profile form? 
+                </a>
+            </div>
+            <div id="1021_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    After your  referee(s) has
+signed the downloaded profile form. Scan the document, login to your
+job profile and upload the signed document
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1022_faq">
+                        What is the meaning of bank sort code and is it necessary? 
+                </a>
+            </div>
+            <div id="1022_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    A bank sort code is a nine digits number that
+identifies a specific branch of a bank. The first three digits are the bank’s
+standard code, the next digit is the location of the bank and the last five
+digits are for the bank branch. It facilitates online transfers.
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1023_faq">
+                        How can I know if I have successfully applied for a job? 
+                </a>
+            </div>
+            <div id="1023_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    You will get an email confirmation in your email
+account, you will also see it in your R.M.S <small> solution </small>account overview page and a
+copy is saved to your messages in your R.M.S <small> solution </small> Account.
+                </div>
+            </div>
+        </div>
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1024_faq">
+                        How can I obtain my NIN and is it compulsory? 
+                </a>
+            </div>
+            <div id="1024_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    Yes your NIN is very compulsory as it helps the
+job recruitment board confirm your identity
+                </div>
+            </div>
+        </div>
+           
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1026_faq">
+                        I have not been selected even though others have been selected. Why? 
+                </a>
+            </div>
+            <div id="1026_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    Most
+times the cause of selection delays is associated with inability to confirm a
+candidates current academic status as at when due, hence selection cannot be
+done as at when due. To rectify this, the affected applicants should call
+R.M.S <small> solutions </small> customer care to confirm his status. Please note R.M.S <small> solutions </small>
+does not recruit applicants. They help as 3rd party for organizations wanting to recruit. <br>
+
+<span><ul><li>&nbsp;&nbsp; <span>If he is valid he should write a letter to the Recruitment
+Board via <a target="_blank" rel="nofollow">admin@rmssolutions.com</a>
+stating his/her case. </li><br></span></span>
+
+<span><li>&nbsp;&nbsp; <span>In the case where a candidates status is invalid meaning his
+or her status for requirment is below the award criteria of the scholarship and
+candidate has evidence that this is not correct. Candidate should send an email
+to <a target="_blank" rel="nofollow">admin@rmssolutions.com</a>
+with a copy of a academic
+transcripts,and qualification certificates.<br>Please note R.M.S <small> solutions </small>
+does not recruit applicants. They help as 3rd party for organizations wanting to recruit. <br></span></span>
+                </div>
+            </div>
+        </div>
+            
+            <div class="accordion-group">
+                <div class="accordion-heading">
+                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#1028_faq">
+                        Do I need more than one account on R.M.S <small> solutions?</small>
+						
+                </a>
+            </div>
+            <div id="1028_faq" class="accordion-body collapse">
+                <div class="accordion-inner">
+                    <b>NO, with one account you can apply for all jobs within your qualification.
+If you create more than one account, you will be automatically ineligible to
+receive any job award</b>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+            </div>
+        </div>
+    </div>
+    <div id="content-below" class="wrapper">
+        <div class="container">
+            <div class="row-fluid">
+            </div>
+        </div>
+    </div>
+
+     <!-- FOOTER -->
+    <footer id="footer" style="padding-bottom: 5px; padding-top: 5px;">
+        <div class="container">
+
+            <div class="row-fluid">
+
+                <div class="subfooter" style="padding-bottom: 5px; padding-top: 5px;">
+                    <div class="span8">
+                        <p>Copyright 2017 &copy; RMS <small>solutions.</small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="http://www.facebook.com/oyeyemi.gabriel1" target="_blank" style="text-decoration: underline">Oyeyemi Gabriel</a></p>
+                    </div>
+                    <div class="span4">
+                        <ul class="inline pull-right">
+                            <li><a href="terms.html">Terms</a></li>
+                            <li><a href="privacy.html">Privacy</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+
+</html>
